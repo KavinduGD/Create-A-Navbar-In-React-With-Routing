@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+/* When you set the box-sizing property to border-box, the width and height that you set in CSS includes the padding and border of the element,
+ but not the margin. This means that the total size of the element will be exactly what you specified, including its padding and border. */
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  color: aliceblue;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.nav li:hover {
+  background-color: #777;
+}
+.nav li:active {
+  background-color: #555;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
